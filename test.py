@@ -4,11 +4,11 @@ from twilio.rest import Client
 
 garbage_full_limit = 5
 
-API_KEY = "7913e4ae-fa53-42c2-b4a7-d72efe7d0283"
-DEVICE_ID  = "BOLT3635841"
+API_KEY = "enter the one you get from the bolt dashboard>api"
+DEVICE_ID  = "enter the one you get from the bolt dashboard beside your device"
 
-account_sid = 'ACc49c9423be6720aa90c946580b7895e8'
-auth_token = '8be2d242cfec455552ca5d91bd546973'
+account_sid = 'in your twilio account'
+auth_token = 'in your twilio account'
 client = Client(account_sid, auth_token)
 
 mybolt = Bolt(API_KEY, DEVICE_ID)
@@ -24,8 +24,8 @@ while True:
     if (int(garbage_value) < garbage_full_limit):
         message = client.messages.create(
                               body='Sewer no. 1 is going to get clogged soon!',
-                              from_='whatsapp:+14155238886',
-                              to='whatsapp:+919711488349'
+                              from_='whatsapp:+from_sandbox_of_twilio_whatsapp api',
+                              to='whatsapp:+your_number or the one to whom you want to send'
                           )
         print("sent")
     time.sleep(10)
