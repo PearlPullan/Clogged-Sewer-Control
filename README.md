@@ -7,6 +7,7 @@ Arduino, BoltIoT module, ultrasonic sensor, python
 
 3. Run test.py program on your desktop.
 
+
 Connections:
 
 HC-SR04 or
@@ -19,6 +20,7 @@ TRIG-------------------5
 ECHO-------------------7
 
 GND---------------------GND
+
 
 
 BOLTIOT ------ ARDUINO
