@@ -10,14 +10,22 @@ Arduino, BoltIoT module, ultrasonic sensor, python
 Connections:
 
 HC-SR04 or
-Ultrasonic sensor     ARDUINO
+Ultrasonic sensor  -------   ARDUINO
+
 VCC--------------------5V
-TRIG-------------------
-ECHO-------------------
+
+TRIG-------------------5
+
+ECHO-------------------7
+
 GND---------------------GND
 
-BOLTIOT        ARDUINO
+
+BOLTIOT ------ ARDUINO
+
 RX---------------TX
+
 TX---------------RX
+
 GND-------------GND
 
