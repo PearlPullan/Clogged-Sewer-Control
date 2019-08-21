@@ -1,9 +1,9 @@
 # Clogged-Sewer-Control
-Arduino, BoltIoT module, ultrasonic sensor, python
+Arduino, Bolt WiFi module, ultrasonic sensor, python
 
 1. Connect arduino and ultrasonic sensor and upload the program ultrasonic1 using arduino IDE
 
-2. Then power the BoltIoT module and connect BoltIoT module to arduino and ensure the device is connected by looking up on its dashboard and checking if the blue and green lights are visible on the module.
+2. Then power the Bolt WiFi module and connect Bolt WiFi module to arduino and ensure the device is connected by looking up on its dashboard and checking if the blue and green lights are visible on the module.
 
 3. Run test.py program on your desktop.
 
@@ -23,7 +23,7 @@ GND---------------------GND
 .
 .
 
-BOLTIOT ------ ARDUINO
+BOLT WiFi module ------ ARDUINO
 
 RX---------------TX
 
